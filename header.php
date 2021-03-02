@@ -19,7 +19,7 @@
 
     <!-- Skip to content -->
     <a class="skip-link screen-reader-text" href="#content">
-        <?php esc_html_e( 'Skip to Content', 'iggy' ); ?>
+        <?php esc_html_e( 'Skip to Content', 'iguana-code' ); ?>
     </a>
 
     <!-- Header Section -->
