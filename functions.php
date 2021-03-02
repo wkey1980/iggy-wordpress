@@ -12,8 +12,8 @@
 define( 'IGGY_THEME_DIR', get_template_directory() );
 define( 'IGGY_THEME_URI', get_template_directory_uri() );
 
-if ( ! function_exists( 'iggy_setup' ) ) ;
-    function iggy_setup(); {
+if ( ! function_exists( 'iggy_setup' ) ) :
+    function iggy_setup() {
         load_theme_textdomain( 'iggy', IGGY_THEME_DIR . '/languages' );
         add_theme_support( 'automatic-feed-links' );
         add_theme_support( 'title-tag' );
@@ -113,4 +113,4 @@ require IGGY_THEME_DIR . './inc/menus.php';
 
 
 // Register Widgets areas
-require iguana_theme_dir . '/inc/widgets/widgets.php';
+// require iguana_theme_dir . '/inc/widgets/widgets.php';
