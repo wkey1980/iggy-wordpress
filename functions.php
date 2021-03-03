@@ -93,6 +93,17 @@ if ( ! function_exists( 'iggy_setup' ) ) :
 endif;
 add_action( 'after_setup_theme', 'iggy_setup' );
 
+function iggy_content_width() {
+
+    // Setup content width
+    $content_width = 800;
+
+    $GLOBALS[ 'content_width' ] = apply_filters( 'iggy_content_width', $content_width );
+
+}
+add_action( 'after_setup_theme', 'iggy_content_width', 0 );
+
+
 
 
 
