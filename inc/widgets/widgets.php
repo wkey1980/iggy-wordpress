@@ -11,6 +11,8 @@
 
 // Widgets
 
+// ! Look into the method of a foreach loop to generate more than one widget.
+
 function iggy_widgets_init() {
     register_sidebar(
         array(
